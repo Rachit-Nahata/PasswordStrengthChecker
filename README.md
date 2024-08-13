@@ -17,16 +17,16 @@ Clone or Download: Download the source code file named styled_password_checker.p
 Install Dependencies:
 Ensure you have Python 3 installed. Then, install PyInstaller if you want to convert the script to an executable:
 
-sh
-Copy code
-pip install pyinstaller
+
+'pip install pyinstaller'
+
 Usage
 Run the Script:
 Open your terminal or command prompt, navigate to the directory where styled_password_checker.py is located, and run:
 
-sh
-Copy code
-python styled_password_checker.py
+
+'python styled_password_checker.py'
+
 Using the Application:
 
 Enter your password into the input field.
@@ -40,9 +40,8 @@ Open your terminal or command prompt and navigate to the directory where styled_
 Create the Executable:
 Run the following command:
 
-sh
-Copy code
-pyinstaller --onefile --windowed styled_password_checker.py
+'pyinstaller --onefile --windowed styled_password_checker.py'
+
 --onefile: Creates a single executable file.
 --windowed: Prevents the terminal window from appearing when running the GUI application.
 Locate the Executable:
